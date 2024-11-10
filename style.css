@@ -1,0 +1,42 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #f0f0f0;
+ color: rgb(0, 0, 0);
+ padding: 10px;
+}
+.ulparent{
+    display: flex;
+    gap:30px;
+}
+.ulparent > li{
+    list-style: none;
+}
+
+.img{
+    width: 140px;
+}
+.coffe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 8%;
+}
+.coffe-img{
+ width: 400px;
+}
+.coffee-btn{
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: rgb(43, 8, 8);
+    color: white;
+    border-radius: 10px;
+}
